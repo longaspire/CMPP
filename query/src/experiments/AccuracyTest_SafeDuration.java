@@ -26,8 +26,8 @@ public class AccuracyTest_SafeDuration {
     public static String result_pre_safeDuration_ge = System.getProperty("user.dir") + "/result/result_pre_safeDuration_ge.txt";
     public static String result_pre_safeDuration_le = System.getProperty("user.dir") + "/result/result_pre_safeDuration_le.txt";
 
-    public static String outFileAcc = System.getProperty("user.dir") + "/result/" + "newHSM_safeDuration_precision.csv";
-    public static String outFileRecall = System.getProperty("user.dir") + "/result/" + "newHSM_safeDuration_recall.csv";
+    public static String outFileAcc = System.getProperty("user.dir") + "/result/" + "TData_safeDuration_precision.csv";
+    public static String outFileRecall = System.getProperty("user.dir") + "/result/" + "TData_safeDuration_recall.csv";
 
     public static void getGroundTruth() throws IOException {
         Init.init("true", 10);

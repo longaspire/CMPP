@@ -25,8 +25,8 @@ public class AccuracyTest_Pop {
     public static String result_pre_population_ge = System.getProperty("user.dir") + "/result/result_pre_population_ge.txt";
     public static String result_pre_population_le = System.getProperty("user.dir") + "/result/result_pre_population_le.txt";
 
-    public static String outFileAcc = System.getProperty("user.dir") + "/result/" + "newHSM_population_precision.csv";
-    public static String outFileRecall = System.getProperty("user.dir") + "/result/" + "newHSM_population_recall.csv";
+    public static String outFileAcc = System.getProperty("user.dir") + "/result/" + "TData_population_precision.csv";
+    public static String outFileRecall = System.getProperty("user.dir") + "/result/" + "TData_population_recall.csv";
 
     public static void getGroundTruth() throws IOException {
         Init.init("true", 10);

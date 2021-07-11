@@ -25,8 +25,8 @@ public class AccuracyTest_Range {
     public static String result_pre_range_ge = System.getProperty("user.dir") + "/result/result_pre_range_ge.txt";
     public static String result_pre_range_le = System.getProperty("user.dir") + "/result/result_pre_range_le.txt";
 
-    public static String outFileAcc = System.getProperty("user.dir") + "/result/" + "newHSM_range_precision.csv";
-    public static String outFileRecall = System.getProperty("user.dir") + "/result/" + "newHSM_range_recall.csv";
+    public static String outFileAcc = System.getProperty("user.dir") + "/result/" + "TData_range_precision.csv";
+    public static String outFileRecall = System.getProperty("user.dir") + "/result/" + "TData_range_recall.csv";
 
     public static void getGroundTruth() throws IOException {
         Init.init("true", 10);
