@@ -298,7 +298,7 @@ public class PointPrepare {
     public static void main(String [] arg) throws IOException {
         Init.init("pre", 10);
 
-        trajectoryGen_save(trajectorys, "newHSM", 10, 10);
+        trajectoryGen_save(trajectorys, "TData", 10, 10);
 
     }
 }

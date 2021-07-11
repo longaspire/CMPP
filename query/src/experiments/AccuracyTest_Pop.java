@@ -30,7 +30,7 @@ public class AccuracyTest_Pop {
 
     public static void getGroundTruth() throws IOException {
         Init.init("true", 10);
-        PointPrepare.trajectoryGen_read(PointPrepare.trajectorys, "newHSM", sampleInterval);
+        PointPrepare.trajectoryGen_read(PointPrepare.trajectorys, "TData", sampleInterval);
         System.out.println("start querying...");
         ArrayList<Integer> populations = new ArrayList<>(Arrays.asList(2, 4, 6, 8, 10));
         String s = "";

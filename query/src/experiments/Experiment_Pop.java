@@ -207,7 +207,7 @@ public class Experiment_Pop {
     public static void main(String arg[]) throws IOException {
         PrintOut printOut = new PrintOut();
         Init.init("pre", 10);
-        PointPrepare.trajectoryGen_read(PointPrepare.trajectorys, "newHSM", sampleInterval);
+        PointPrepare.trajectoryGen_read(PointPrepare.trajectorys, "TData", sampleInterval);
 
 
 

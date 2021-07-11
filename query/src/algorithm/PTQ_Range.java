@@ -169,7 +169,7 @@ public class PTQ_Range {
 
     public static void main(String[] arg) throws IOException {
         Init.init("pre", 10);
-        PointPrepare.trajectoryGen_read(PointPrepare.trajectorys, "newHSM", 10);
+        PointPrepare.trajectoryGen_read(PointPrepare.trajectorys, "TDATA", 10);
         System.out.println("start querying...");
         HashMap<Integer, Point> tra = PointPrepare.trajectory.get(0);
         for (int t = 0; t < 3600; t += 10){

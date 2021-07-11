@@ -199,16 +199,5 @@ public class PTQ_Range_le {
         return dist;
     }
 
-    public static void main(String[] arg) throws IOException {
-        Init.init("pre", 10);
-        PointPrepare.trajectoryGen_read(PointPrepare.trajectorys, "newHSM", 10);
-        System.out.println("start querying...");
-        ArrayList<Integer> result1 = range(new Point(800, 800, 0), 1500, 0, 5, 0.5, 60);
-        ArrayList<Integer> result2 = range(new Point(800, 800, 0), 1500, 30, 5, 0.5, 60);
-        System.out.println(result1);
-        System.out.println(result2);
-
-    }
-
 }
 

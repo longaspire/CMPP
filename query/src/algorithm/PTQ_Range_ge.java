@@ -160,15 +160,6 @@ public class PTQ_Range_ge {
         return dist;
     }
 
-    public static void main(String[] arg) throws IOException {
-        Init.init("pre", 10);
-        PointPrepare.trajectoryGen_read(PointPrepare.trajectorys, "newHSM", 10);
-        System.out.println("start querying...");
-
-        ArrayList<Integer> result = range(new Point(800, 800, 0), 1500, 0, 5, 0.5, 60);
-
-        System.out.println(result);
-
 
 
 

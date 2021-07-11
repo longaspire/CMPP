@@ -171,7 +171,7 @@ public class Prepare {
         PrintOut printOut = new PrintOut();
 
         HSMDataGenRead dateGenReadMen = new HSMDataGenRead();
-        dateGenReadMen.dataGen("newHsm");
+        dateGenReadMen.dataGen("TData");
 
         GenTopology genTopology = new GenTopology();
         genTopology.genTopology();

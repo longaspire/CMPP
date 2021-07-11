@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class DataGenConstant {
-	public static String dataset = "syn";
+	public static String dataset = "SData";
 	
 	// PARAMETERS FOR INDOOR SPACES
 	/** dimensions of the floor */
@@ -64,26 +64,9 @@ public class DataGenConstant {
 //	public static int safe_duration = 60;
 
 	public static void init(String dataName) {
-		if (dataName.equals("hsm")) {
-			dataset = "hsm";
-			floorRangeX = 2100;
-			floorRangeY = 2700;
-			zoomLevel = 0.28;
-			nFloor = 7;
-//			parInterval = 5;
-//			doorInterval = new ArrayList<>(Arrays.asList(5, 10, 15, 20, 25, 30, 35, 45, 50));
-			objects = 600;
-//
-			exitDoors = new ArrayList<>(Arrays.asList(30, 37, 39, 40, 41, 43, 44, 48, 51, 52, 53, 329, 336, 338, 339, 340, 342, 343, 347, 350, 351, 352, 628, 635, 637, 638, 639, 641, 642, 646, 649, 650, 651, 927, 934, 936, 937, 938, 940, 941, 945, 948, 949, 950, 1226, 1233, 1235, 1236, 1237, 1239, 1240, 1244, 1247, 1248, 1249, 1525, 1532, 1534, 1535, 1536, 1538, 1539, 1543, 1546, 1547, 1548, 1824, 1831, 1833, 1834, 1835, 1837, 1838, 1842, 1845, 1846, 1847));
-			destributionPara = 10;
-			volatilityPara = 10;
-			volatilityTheta = 3;
 
-
-		}
-
-		if (dataName.equals("newHsm")) {
-			dataset = "newHsm";
+		if (dataName.equals("TData")) {
+			dataset = "TData";
 			floorRangeX = 2100;
 			floorRangeY = 2700;
 			zoomLevel = 0.28;

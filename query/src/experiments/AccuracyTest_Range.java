@@ -30,7 +30,7 @@ public class AccuracyTest_Range {
 
     public static void getGroundTruth() throws IOException {
         Init.init("true", 10);
-        PointPrepare.trajectoryGen_read(PointPrepare.trajectorys, "newHSM", sampleInterval);
+        PointPrepare.trajectoryGen_read(PointPrepare.trajectorys, "TData", sampleInterval);
         System.out.println("start querying...");
         ArrayList<Integer> ranges = new ArrayList<>(Arrays.asList(1000, 1500, 2000, 2500, 3000));
         String s = "";

@@ -31,7 +31,7 @@ public class AccuracyTest_SafeDuration {
 
     public static void getGroundTruth() throws IOException {
         Init.init("true", 10);
-        PointPrepare.trajectoryGen_read(PointPrepare.trajectorys, "newHSM", sampleInterval);
+        PointPrepare.trajectoryGen_read(PointPrepare.trajectorys, "TData", sampleInterval);
         System.out.println("start querying...");
         ArrayList<Integer> safeDurations = new ArrayList<>(Arrays.asList(90, 120, 150, 180, 210));
         String s = "";
